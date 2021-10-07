@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/bigsmarty/LowLevelVulkan2DGameLibrary/Master/LowLevelVulkan2DGame/build",
-  "command": "/usr/bin/c++ -I/home/bigsmarty/LowLevelVulkan2DGameLibrary/Master/LowLevelVulkan2DGame/LowLevelVulkan2DGame -g -fmodules-ts -lz -std=gnu++20 -o CMakeFiles/LowLevelVulkan2DGame.dir/source_files/main.cpp.o -c /home/bigsmarty/LowLevelVulkan2DGameLibrary/Master/LowLevelVulkan2DGame/source_files/main.cpp",
-  "file": "/home/bigsmarty/LowLevelVulkan2DGameLibrary/Master/LowLevelVulkan2DGame/source_files/main.cpp"
-}
-]

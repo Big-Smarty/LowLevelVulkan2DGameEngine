@@ -1,3 +1,0 @@
-/home/bigsmarty/LowLevelVulkan2DGameLibrary/Master/LowLevelVulkan2DGame/CMakeFiles/rebuild_cache.dir
-/home/bigsmarty/LowLevelVulkan2DGameLibrary/Master/LowLevelVulkan2DGame/CMakeFiles/edit_cache.dir
-/home/bigsmarty/LowLevelVulkan2DGameLibrary/Master/LowLevelVulkan2DGame/CMakeFiles/LowLevelVulkan2DGame.dir
