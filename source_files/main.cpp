@@ -1,13 +1,14 @@
-#include "../header_files/main.hpp"
+#include "../header_files/main.h"
 
 
 using namespace std;
 
 
+
 class c_HelloTriangleApplication {
 public:
     void run() {
-        vulkan.f_InitVulkan();
+        vulkan.f_initVulkan();
         f_MainLoop();
         f_Cleanup();
     }
@@ -21,12 +22,14 @@ private:
     void f_MainLoop() {
         while (!glfwWindowShouldClose(window.Window)) {
         glfwPollEvents();
-    }
+        }
 
     }
 
     void f_Cleanup() {
-        vkDestroyInstance(vulkan.o_instance, nullptr);
+        vulkan.f_cleanupVkSetup();
+
+        vkDestroyInstance(vulkan.instance, nullptr);
     
         glfwDestroyWindow(window.Window);
 
